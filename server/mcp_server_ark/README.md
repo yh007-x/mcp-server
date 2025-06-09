@@ -152,7 +152,7 @@ export ARK_BOT_NAME=web_search
             "command": "uvx",
             "args": [
             "--from",
-            "git+https://github.com/volcengine/ai-app-lab#subdirectory=mcp/server/mcp_server_ark",
+            "git+https://github.com/volcengine/mcp-server.git#subdirectory=server/mcp_server_ark",
             "mcp-server-ark",
           ],
             "env": {
